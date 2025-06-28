@@ -136,7 +136,7 @@ export type SmilePayResponseData = {
   /** Ibon繳費代碼 */
   IbonNo: string;
   /** 全家繳費代碼 */
-  FamiNo: string;
+  FamiNO: string;
 };
 
 /**
