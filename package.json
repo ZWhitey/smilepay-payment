@@ -1,7 +1,14 @@
 {
   "name": "smilepay-payment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZWhitey/smilepay-payment.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -9,9 +16,8 @@
     "build": "tsc",
     "test": "jest"
   },
-  "prepare": "npm run build",
   "keywords": [],
-  "author": "",
+  "author": "Whitey",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {

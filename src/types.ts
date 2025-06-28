@@ -109,24 +109,34 @@ export type SmilePayResponse = {
  * SmilePay 回應資料型別
  */
 export type SmilePayResponseData = {
-  /** 狀態碼 */
+  /** 取號狀態 */
   Status: string;
-  /** 狀態描述 */
+  /** 描述 */
   Desc: string;
-  /** 參數碼 */
-  Rvg2c: string;
   /** 商家代號 */
   Dcvc: string;
-  /** 交易編號 */
+  /** SmilePay追蹤碼 */
   SmilePayNO: string;
-  /** 訂單號碼 */
+  /** 商家訂單編號 */
   Data_id: string;
   /** 金額 */
   Amount: number;
+  /** 繳款截止期限 (格式: yyyy/mm/dd hh:mm:ss) */
+  PayEndDate: string;
   /** ATM銀行代碼 */
   AtmBankNo: string;
-  /** ATM交易序號 */
+  /** ATM虛擬帳號 */
   AtmNo: string;
+  /** 條碼1 */
+  Barcode1: string;
+  /** 條碼2 */
+  Barcode2: string;
+  /** 條碼3 */
+  Barcode3: string;
+  /** Ibon繳費代碼 */
+  IbonNo: string;
+  /** 全家繳費代碼 */
+  FamiNo: string;
 };
 
 /**
