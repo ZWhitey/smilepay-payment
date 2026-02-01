@@ -1,6 +1,6 @@
 {
   "name": "smilepay-payment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Node.js package for integrating with SmilePay payment gateway, supporting multiple payment methods including virtual accounts, convenience store payment codes, and cash on delivery.",
   "files": [
     "dist"
