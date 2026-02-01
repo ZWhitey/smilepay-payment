@@ -1,7 +1,7 @@
 {
   "name": "smilepay-payment",
   "version": "1.0.1",
-  "description": "",
+  "description": "A Node.js package for integrating with SmilePay payment gateway, supporting multiple payment methods including virtual accounts, convenience store payment codes, and cash on delivery.",
   "files": [
     "dist"
   ],
@@ -16,7 +16,20 @@
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "smilepay",
+    "payment",
+    "gateway",
+    "taiwan",
+    "payment-gateway",
+    "virtual-account",
+    "convenience-store",
+    "atm",
+    "ibon",
+    "famiport",
+    "cash-on-delivery",
+    "logistics"
+  ],
   "author": "Whitey",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
